@@ -33,7 +33,9 @@ Restart your shell so the path changes take effect:
 
 You can now begin using pyenv.
 
-If you need, ``export USE_GIT_URI`` to use ``git://`` instead of ``https://`` for git clone.
+If you need it or exit abnormally during installation: ``fatal: unable to access 'https://github.com/xxxx.git/': Empty reply from server``
+
+Try to ``export USE_GIT_URI`` to use ``git://`` instead of ``https://`` for git clone.
 
 Update:
 ~~~~
